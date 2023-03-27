@@ -13,6 +13,10 @@
     }
 } */
 
+.modal .at-modal__container{
+  width: 16.5rem;
+}
+
 .modal-title{
   display: flex;
   align-items: center;

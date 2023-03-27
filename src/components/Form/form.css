@@ -1,0 +1,18 @@
+.form-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75rpx;
+    padding: 0 24rpx 0 24rpx;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.reverse{
+    color: #6190e8;
+    flex-direction: row-reverse;
+}
+.form-btn{
+    margin-top: 24rpx;
+}

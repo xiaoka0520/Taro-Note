@@ -26,7 +26,8 @@
     "dev:rn": "npm run build:rn -- --watch",
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
-    "dev:quickapp": "npm run build:quickapp -- --watch"
+    "dev:quickapp": "npm run build:quickapp -- --watch",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx src --ignore-path .eslintignore"
   },
   "browserslist": [
     "last 3 versions",
@@ -53,7 +54,8 @@
     "@tarojs/taro-h5": "3.5.11",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "taro-ui": "^2.3.4"
+    "scss": "^0.2.4",
+    "taro-ui": "3.0.0-alpha.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
@@ -64,10 +66,14 @@
     "@types/webpack-env": "^1.13.6",
     "babel-preset-taro": "3.5.11",
     "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-config-taro": "3.5.11",
     "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.8.7",
     "react-refresh": "^0.11.0",
     "stylelint": "^14.4.0",
     "webpack": "5.69.0"

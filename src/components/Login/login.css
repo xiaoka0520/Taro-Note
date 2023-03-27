@@ -1,0 +1,28 @@
+/* 
+.root {
+    display: 'block';
+    position: 'absolute';
+    // 此处，使用 global 包裹其他子节点的类名。此时，这些类名就不会被处理，在 JSX 中使用时，就可以用字符串形式的类名
+    // 如果不加 :global ，所有类名就必须添加 styles.title 才可以
+    :global {
+      .title {
+       width: 100%;
+       height: 85rpx;
+       border: 1px solid red($color: #000000);
+      }
+    }
+} */
+
+.modal-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 95rpx;
+  padding: 0 24rpx 0 24rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.modal-title text{
+  font-size: 35rpx;
+}

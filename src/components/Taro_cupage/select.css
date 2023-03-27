@@ -1,0 +1,8 @@
+.select{
+    margin-top: 24rpx;
+    height: 85rpx;
+    border-bottom: 1px solid #eee;
+}
+.select .select-wrap{
+    width: 275rpx;
+}

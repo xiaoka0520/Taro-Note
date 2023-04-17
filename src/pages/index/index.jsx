@@ -8,20 +8,19 @@ import TaroNavBar from "../../components/Taro_navbar/index";
 import TaroTabs from "../../components/Taro_tabs";
 import TaroCurPage from "../../components/Taro_cupage";
 
-
-import LoginModal from '../../components/Login'
+import LoginModal from "../../components/Login";
 
 export default function Index() {
-  const [Opened,setOpened]=useState(false)
+  const [Opened, setOpened] = useState(false);
   // 监听子组件的方法
   Taro.eventCenter.on("tabchange", changeTab);
-  Taro.eventCenter.on("login",loginClick)
+  Taro.eventCenter.on("login", loginClick);
   function changeTab(e) {
     console.log(e);
   }
 
-  function loginClick(e){
-    setOpened(Opened=>!Opened)
+  function loginClick(e) {
+    setOpened((Opened) => !Opened);
   }
   const tabList = [
     { title: "综合" },
@@ -36,9 +35,9 @@ export default function Index() {
     <View className="index">
       <TaroNavBar />
       <TaroTabs tabList={tabList}>
-        <TaroCurPage/>
+        <TaroCurPage />
       </TaroTabs>
-      <LoginModal isOpened={Opened}/>
+      <LoginModal isOpened={Opened} />
     </View>
   );
 }

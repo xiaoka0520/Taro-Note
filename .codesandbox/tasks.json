@@ -1,0 +1,108 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build:weapp": {
+      "name": "build:weapp",
+      "command": "yarn build:weapp",
+      "runAtStart": false
+    },
+    "build:swan": {
+      "name": "build:swan",
+      "command": "yarn build:swan",
+      "runAtStart": false
+    },
+    "build:alipay": {
+      "name": "build:alipay",
+      "command": "yarn build:alipay",
+      "runAtStart": false
+    },
+    "build:tt": {
+      "name": "build:tt",
+      "command": "yarn build:tt",
+      "runAtStart": false
+    },
+    "build:h5": {
+      "name": "build:h5",
+      "command": "yarn build:h5",
+      "runAtStart": false
+    },
+    "build:rn": {
+      "name": "build:rn",
+      "command": "yarn build:rn",
+      "runAtStart": false
+    },
+    "build:qq": {
+      "name": "build:qq",
+      "command": "yarn build:qq",
+      "runAtStart": false
+    },
+    "build:jd": {
+      "name": "build:jd",
+      "command": "yarn build:jd",
+      "runAtStart": false
+    },
+    "build:quickapp": {
+      "name": "build:quickapp",
+      "command": "yarn build:quickapp",
+      "runAtStart": false
+    },
+    "dev:weapp": {
+      "name": "dev:weapp",
+      "command": "yarn dev:weapp",
+      "runAtStart": false
+    },
+    "dev:swan": {
+      "name": "dev:swan",
+      "command": "yarn dev:swan",
+      "runAtStart": false
+    },
+    "dev:alipay": {
+      "name": "dev:alipay",
+      "command": "yarn dev:alipay",
+      "runAtStart": false
+    },
+    "dev:tt": {
+      "name": "dev:tt",
+      "command": "yarn dev:tt",
+      "runAtStart": false
+    },
+    "dev:h5": {
+      "name": "dev:h5",
+      "command": "yarn dev:h5",
+      "runAtStart": true
+    },
+    "dev:rn": {
+      "name": "dev:rn",
+      "command": "yarn dev:rn",
+      "runAtStart": false
+    },
+    "dev:qq": {
+      "name": "dev:qq",
+      "command": "yarn dev:qq",
+      "runAtStart": false
+    },
+    "dev:jd": {
+      "name": "dev:jd",
+      "command": "yarn dev:jd",
+      "runAtStart": false
+    },
+    "dev:quickapp": {
+      "name": "dev:quickapp",
+      "command": "yarn dev:quickapp",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    }
+  }
+}
